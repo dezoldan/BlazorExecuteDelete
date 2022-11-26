@@ -254,7 +254,7 @@ namespace BlazorApp1.Server.Controllers
             await ServiceAluno.DeleteAsync3(id1);
         }
 
-        // Vídeo #34. Outros vídeos sobre UPDATE, vídeos #08, #09, #15, #16 e #32.
+        // Vídeo #34. Outros vídeos sobre UPDATE: vídeos #08, #09, #15, #16 e #32.
         [HttpPut("update6/{id1:int}/{sobrenome}")]
         public async Task Update6([FromRoute] int id1, string sobrenome)
         {
